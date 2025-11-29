@@ -1,0 +1,7 @@
+Build & Run (example):
+1) Compile:
+   javac -d out $(find src -name '*.java')
+2) Ensure mysql-connector-java.jar is in lib/ and on classpath.
+3) Run:
+   java -cp out:lib/mysql-connector-java.jar Main
+(On Windows adjust classpath separator ;)
