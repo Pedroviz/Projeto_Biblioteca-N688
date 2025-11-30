@@ -32,7 +32,7 @@ O sistema funciona totalmente no terminal e foi organizado seguindo boas prátic
 - **MySQL Workbench**
 - **MySQL Connector/J 9.5.0**
 - **VS Code**
-- Terminal macOS Ventura
+
 
 ---
 
@@ -53,8 +53,56 @@ Projeto_Biblioteca-N688/
 ```
 
 ---
+---
+# 🛠️ Configuração do Ambiente
 
-## ⚙️ Configuração do Ambiente
+Para executar o projeto corretamente, é necessário configurar um ambiente básico de desenvolvimento.  
+As etapas abaixo são universais e funcionam em qualquer sistema operacional (Windows, macOS ou Linux).
+
+---
+
+## ⚙️ Passo a Passo
+
+### 1. Instale o Java Development Kit (JDK)
+Certifique-se de ter uma versão atualizada do JDK (Java 17 ou superior).  
+Isso permitirá compilar e executar aplicações Java no terminal.
+
+---
+
+### 2. Instale um gerenciador de banco de dados
+O projeto utiliza **MySQL**, mas qualquer SGBD compatível com **JDBC** pode ser utilizado.  
+Após a instalação, configure um usuário com permissões de criação e consulta de tabelas.
+
+---
+
+### 3. Crie o banco de dados do projeto
+Execute o arquivo SQL fornecido ou crie manualmente as tabelas indicadas no diagrama ER.
+
+---
+
+### 4. Configure o driver JDBC
+Baixe o driver JDBC apropriado (como o *MySQL Connector/J*)  
+e adicione o arquivo `.jar` ao **classpath** do projeto.
+
+---
+
+### 5. Utilize um editor de código ou IDE de sua preferência
+Pode ser **VS Code**, **IntelliJ IDEA**, **Eclipse** ou qualquer outro editor que suporte Java.  
+Apenas certifique-se de apontar o classpath para o diretório `lib/`.
+
+---
+
+### 6. Compile e execute o projeto
+A compilação pode ser feita via terminal ou por script.  
+Após compilar, execute a classe principal para iniciar o sistema.
+
+---
+
+## ✔️ Pronto!
+Com essa configuração, qualquer usuário em qualquer sistema operacional consegue preparar o ambiente e rodar o projeto sem dificuldades.
+
+
+## ⚙️ Configuração do Ambiente /(Mac Os)
 
 ### 1. Instalar MySQL Server e Workbench
 
